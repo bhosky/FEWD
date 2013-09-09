@@ -31,11 +31,16 @@ var q1 = $('#fig1 img').attr('src');
  * Add the "success" class to each of "the-fact" list items
  */
 
+$('#the-facts li').addClass('success');
+
 
 /**
  * Question 5:
  * Check if the figure with id "fig2" has the class "awesome". If not, apply it
  */
+if(#fig2').addClass('awesome');
+
+$('#fig2').toggleClass.
 
 
 /**

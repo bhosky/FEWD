@@ -1,3 +1,10 @@
+	$('#instruction-title').remove();
+	$('#instruction').remove();
+
+	$('#shopping-list')before('<h1>My Shopping List</h1>');
+
+
+
 	var list = [];
 	var food_item;
 	var found = false;
@@ -22,4 +29,7 @@
 	console.log('My Shopping List');
 	for (var i=0; i < list.length; i++){
 		console.log(list[i]);
-	}
+
+		$('ul').append('<li>' + list[i] + '</li>');
+}
+
