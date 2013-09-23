@@ -20,8 +20,14 @@ Hint: Research the .click(), .text() in jQuery documentation
 var total = 0;
 
 $(function(){
-
-	//$(box to be updated).click(function call);
-
-
+	$('#app').on('click','.row > div', update)
 });
+
+$('#a10').click();
+
+function update(event) {
+	total = total + parseInt($(this).text());
+	$('#out').text(total);
+}
+
+

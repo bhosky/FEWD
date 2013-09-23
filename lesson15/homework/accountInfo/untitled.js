@@ -1,0 +1,1 @@
+var name = prompt('What is the account holder's name?');

@@ -25,3 +25,7 @@ h3 {
 dt {
   font-weight: bold;
 }
+
+#container.colored-container { 
+  background-color: black;
+} 
